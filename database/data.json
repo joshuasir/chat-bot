@@ -1,0 +1,69 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+        "responses": ["I am 18 years old!", "18 years young!"],
+        "context_set": ""
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me Robo.", "I'm Robo!", "I'm bo, Robo."],
+        "context_set": ""
+    },
+    {
+        "tag": "services",
+        "patterns": ["what do you sell","what is your services","what are your services","Id like to order your services","Id like to know your services", "whats services do you offer", "what services do you reccommend?", "can you tell me the price","how much for a service"],
+        "responses": ["We offer videography and photography services. You can go check https://lalunavisuals.com/services.php for more information"],
+        "context_set": ""
+    },
+    {
+        "tag": "works",
+        "patterns": ["what is your projects","what are your projects","Id like to know more about your projects", "what projects do you have?", "what highlights are you proud of?"],
+        "responses": ["You can go check https://lalunavisuals.com/index.php/#works"],
+        "context_set": ""
+    },
+    {
+        "tag": "convincing",
+        "patterns": ["why should we buy from you"],
+        "responses": ["We offer the best quality and price for your needs"],
+        "context_set": ""
+    },
+    {
+        "tag": "about",
+        "patterns": ["what is","who is"],
+        "responses": ["We are a communication visual design brand that offers video services for visual needs"],
+        "context_set": ""
+    },
+    {
+        "tag": "gibbersih",
+        "patterns": [""],
+        "responses": ["Sorry can you rephrase that?"],
+        "context_set": ""
+    },
+    {
+        "tag": "hours",
+        "patterns": ["when are you guys available", "what are your hours", "hours of operation"],
+        "responses": ["We are open 7am-4pm Monday-Friday!"],
+        "context_set": ""
+    },
+    {
+        "tag":"ack",
+        "patterns":["yes","ok","okay","understood"],
+        "responses": ["*nods*"],
+        "context_set": ""
+    }
+]
+}

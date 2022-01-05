@@ -1,0 +1,26 @@
+{% extends "header.html" %}
+
+{% block title %}Chat UI{% endblock %}
+{% block content %}
+<div id="chatbox" style="height:30em; display:flex; flex-flow:column; overflow-y: scroll;" >
+{% for x in respond %}
+    
+    {% if loop.index%2==1 %}
+	    <li class="bg-primary text-white" style="width: 15em; border-radius: .4em; padding: .7em; display:flex; justify-content:flex-start;padding: inline 1em;">{{ x }}</li>
+    {% else %}
+        <li class="bg-light" style="width: 15em; margin-right:.8em; margin-left: auto; display:flex; justify-content:flex-end;padding: inline 1em; border-radius: .4em; padding: .7em;">{{ x }}</li>
+    {% endif %}
+
+    
+{% endfor %}
+</div>
+<form action="#" method="POST">
+    <div class="input-group mb-4">
+      
+      <input type="text" class="form-control" name="user_respond" id="" placeholder="">
+      <input type="submit" class="btn btn-primary" value="send" />
+    </div>
+    <!-- <input type="text" name="reply">
+    <button type="submit"> send</button> -->
+</form>
+{% endblock %}
