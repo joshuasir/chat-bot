@@ -1,1 +1,1 @@
-simple chatbot with deep neural network with deployment in flask
+simple commercial chatbot with deep neural network, web deployment with flask
